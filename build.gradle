@@ -41,7 +41,7 @@ ext {
 sourceSets {
     reactApp {
         resources.srcDirs = [new File(reactAppDir, 'build')]
-        output.resourcesDir = new File(buildDir, 'resources/main/reactapp')
+        output.resourcesDir = new File(buildDir, 'resources/main/public/reactapp')
     }
 }
 
