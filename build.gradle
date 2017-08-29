@@ -45,6 +45,10 @@ sourceSets {
     }
 }
 
+bootRun {
+    addResources = true
+}
+
 node {
     download = true
     nodeModulesDir = reactAppDir
